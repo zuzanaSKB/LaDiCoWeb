@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <title>LaDiCo</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="content.js" defer></script>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="images/logo.jpg" alt="logo"
+            class="main-logo">
+            <br>
+            <div class="main-banner">
+                <div class="owl-carousel owl-banner">
+                  <div class="item item-1">
+                    <div class="header-text">
+                      <span class="category">Lago di Como, <em>Italy</em></span>
+                      <h3>Hurry!<br>Get the Best Vacation for you</h3>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Lago di Como</a></li> 
+                    <li><a href="menaggio.html">Menaggio</a></li> 
+                    <li><a href="bellagio.html">Bellagio</a></li> 
+                    <li><a href="varenna.html">Varenna</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+           <h2> Lago di Como </h2>
+           <br>
+           <div class= "container-fluid">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <img src="images/home/justMap.JPG" alt="map" class="main-map">
+                    </div>
+                    <div class="col-sm-6">
+                        <p>Lake Como, known locally as Lago di Como or Lario,
+                            stands as Italy's third-largest lake, following Lake Garda 
+                            and Lake Maggiore.
+                            Nestled at the base of the Alps,
+                            it presents some of Italy's most romantic and picturesque landscapes.
+                        </p>
+                        <p>Its iconic inverted-Y shape originates from the combined effects
+                            of glacial melting and the erosive forces of the Adda river. 
+                            This natural process sculpted the lake into two southern branches 
+                        that converge at the cities of Como and Lecco, featuring the renowned 
+                        town of Bellagio at their meeting point. 
+                        </p>
+                    </div>                    
+                </div>
+            </div>
+            <br>
+            <div class= "container-fluid">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <video width="300px" height="300px" controls="controls" >
+                            <source src="videos/jazero.MOV">
+                        </video>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="gallery">
+                            <a target="_blank" href="images/home/IMG_7584.jpg">
+                              <img src="images/home/IMG_7584.jpg" alt="ladico1" width="300" height="400">
+                            </a>
+                            <div class="desc">Lago di Como</div>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">                    
+                        <div class="gallery">
+                            <a target="_blank" href="images/home/IMG_7390.jpg">
+                                <img src="images/home/IMG_7390.jpg" alt="ladico2" width="300" height="400">
+                              </a>
+                              <div class="desc">Map of Lago</div>
+                        </div>
+                    </div>  
+                    <div class="col-sm-2">                    
+                        <div class="gallery">
+                            <a target="_blank" href="images/home/IMG_7331.jpg">
+                                <img src="images/home/IMG_7331.jpg" alt="ladico2" width="300" height="400">
+                              </a>
+                              <div class="desc">Sunrise at Lago</div>
+                        </div>
+                    </div>  
+                    <div class="col-sm-3">
+                        <video width="300px" height="300px" controls="controls">
+                            <source src="videos/vlajka.mov">
+                        </video>
+                    </div>                  
+                </div>
+           </div>
+           <br>
+           <div class= "container-fluid">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <p>Between towns, short distances make it easy to explore 3 or 4 
+                            villages using local transportation. You can wander among 
+                            stunning villas and gardens, unwind on beautiful beaches 
+                            or private boat tours, and recharge with refreshing nature walks.
+                        </p>
+                        <p>I highly recommend taking a ferry to visit three of the area's 
+                            top towns: Varenna, Bellagio, and Menaggio. For a deeper insight into these towns, 
+                            I encourage you to explore further details available on this website. 
+                            It offers a comprehensive view of the charm and attractions awaiting you in Varenna, 
+                            Bellagio, and Menaggio,  complemented by my personal photos captured in 
+                            these picturesque locations.
+                        </p>
+                    </div>
+                    <div class="col-sm-6">
+                        <img src="images/home/lagodicomoMap.jpg" alt="city" class="main-map">
+                    </div>
+                </div>
+            </div>
+        
+        <div class= "container-fluid">
+            <div class="row">
+                <h4>Upload File here</h4>
+                <p>I would be delighted if you could share your photos from your trip to Lago Di Como here: 
+                </p>
+                <div class="col-sm-6">
+                    <form action="php/fileUpload.php" method="post" enctype="multipart/form-data">
+                        <input type="file" name="uploadedFile">
+                        <input type="submit" value="Upload File">
+                    </form>
+                </div>
+                <div class="col-sm-6">
+                    <div id="fileInfo">
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+           
+        </main>
+        <br>
+        <footer class="footer py-3 bg-light text-dark mt-auto ">
+            <div class="container-fluid text-center">
+                <span > &copy; 2023 LaDiCo</span> 
+            </div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

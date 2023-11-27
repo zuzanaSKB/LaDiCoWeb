@@ -1,0 +1,147 @@
+.container {
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+header {
+    grid-row: 1;
+}
+
+main {
+    grid-row: 2;
+}
+
+footer {
+    grid-row: 3;
+}
+
+img {
+    width: 100%;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+h2 {
+  text-align: center;
+}
+
+.main-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 5%;
+}
+
+.main-banner .item {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px 20% 320px 20%;
+    margin-top: 0px;
+  }
+  
+  .main-banner .item-1 {
+    background-image: url(images/lago_title.jpg);
+  }
+  .main-banner .item-2 {
+    background-image: url(images/lago_title2.jpg);
+  }
+  .main-banner .item-3 {
+    background-image: url(images/lago_title3.jpg);
+  }
+  .main-banner .item-4 {
+    background-image: url(images/lago_title4.jpg);
+  }
+
+  .main-banner .item span.category {
+    background-color: #fff;
+    color: #1e1e1e;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 6px 15px;
+    display: inline-block;
+    margin-bottom: 30px;
+  }
+  .main-banner .item span.category em {
+    font-style: normal;
+    color: #f35525;
+  }
+
+  .main-map {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+
+  .varenna-city {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: auto;
+    width: auto;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  div.gallery {
+    display: block;
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+    border-right:1px solid #bbb;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }

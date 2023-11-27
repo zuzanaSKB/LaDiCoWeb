@@ -1,6 +1,6 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_FILES["uploadedFile"])) {
-    $uploadDir = "uploads/"; // Directory to save uploaded files
+    $uploadDir = "uploads"; // Directory to save uploaded files
     $uploadedFile = $uploadDir . basename($_FILES["uploadedFile"]["name"]);
 
     // Check if file already exists
